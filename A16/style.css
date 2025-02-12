@@ -1,0 +1,17 @@
+
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+.one{
+    background-color: lightblue;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+    
+}
+.two{
+    background-color: orange;
+}

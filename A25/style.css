@@ -1,0 +1,30 @@
+:root{
+    --ngjyraetitujve:red;
+    --titullmadhesia:30px;
+    --ngjyraparagraf:black;
+    --paragrafmadhesia:20px;
+}
+.first,.second{
+    color: var(--ngjyraparagraf);
+    font-size: var(--paragrafmadhesia);
+}
+h1,h2{
+    color: var(--ngjyraetitujve);
+    font-size: var(--titullmadhesia);
+}
+.gradient{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to top left,blue, red);
+}
+.foto{
+    width: 500px;
+    height: 500px;
+    background:linear-gradient(
+     90deg,
+     rgba(2, 3, 61, 0.8) 0%,
+     rgba(0, 168, 255, 0.8)100%
+    ),
+    url(https://static.vecteezy.com/system/resources/thumbnails/039/210/128/small_2x/ai-generated-beautiful-nature-mountain-scenery-professionalgraphy-photo.jpg);
+    background-size: cover;
+}

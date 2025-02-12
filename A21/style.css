@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style-type: none;
+    font-size: 25px;
+
+}
+body{
+    padding: 0 50px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 10px;
+}
+.up{
+    margin-top: 30px;
+    display: flex;
+    height: 360px;
+    align-items: center;
+    
+}
+.up-left{
+    width: 50%;
+    background-color: #D2C7F0;
+    padding: 40px;
+    height: 100%;
+}
+.up-right{
+    height: 100%;
+
+}
+.up-left h2{
+    font-size: 40px;
+    width: 60%;
+}
+.up{
+    height: 50%;
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 40%;
+}
+.down h1{
+    font-size: 70px;
+    width: 40%;
+}
+.down span {
+    color: #D2C7F0;
+}
+.down p{
+    font-weight: 400;
+    color: #62666D;
+    width: 40%;
+    text-align: justify;
+}
+.up-left-btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content:flex-start;
+
+}
+.btn-products, .btn-contact{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-products{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+.btn-contact{
+    border: 1px solid black;
+}
+#product{
+  
+}
+.up-right img{
+    opacity: 100%;
+}
+.btn-contact:hover{
+    background-color: black;
+    color: white;
+}
+.btn-products:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}

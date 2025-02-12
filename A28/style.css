@@ -1,0 +1,22 @@
+#home, #contact, #services{
+    color: #198754;
+}
+.container-main img{
+    width: 200px;
+    height: 200px;
+}
+.container-main h1{
+    width: 50%;
+}
+.container-main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container-main2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

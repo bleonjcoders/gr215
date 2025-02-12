@@ -1,0 +1,27 @@
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(142, 92, 0);
+}
+a:hover{
+    color: green;
+}
+a:visited{
+  color: red;
+}
+a:active{
+    color: blue;
+}
+p::before, p::after{
+    display: inline-block;
+    content:"";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}

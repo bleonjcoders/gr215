@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li{
+    list-style-type: none;
+    font-size: 25px;
+
+}
+body{
+    padding: 0 50px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 10px;
+}
+.up{
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+}
+.up{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+}
+.up-left{
+    width: 40%;
+    height: 100%;
+    background-color: #D2C7F0;
+    padding: 2%;
+}
+.up-left h2{
+    font-size: 40px;
+    width: 60%;
+    
+}
+.up-left p{
+    width: 60%;
+    font-size:20px;
+    
+}
+.up-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.up-left button{
+    width: 170px;
+    height: 40px;
+    
+}
+.btn-products{
+    background-color: black;
+    margin-right: 5%;
+    color: white;
+}
+.btn-contact{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.up-right{
+    background-image: url(toa-heftiba-FV3GConVSss-unsplash\ 1\ \(1\).png);
+    width: 60%;
+    height: 100%;
+}
+.down{
+    display: flex;
+    height: 40vh;
+}
+.down h1{
+    width: 40%;
+    font-size: 60px;
+}
+.down span{
+   color:#D2C7F0;
+}
+.down p{
+    width: 60%;
+    text-align: justify;
+    line-height: 33px;
+    color: #62666D;
+}

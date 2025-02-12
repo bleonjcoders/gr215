@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.left-section p {
+    color:#95a3b4 ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.nav-icon{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 5px 5px 10px #b8b8b8;
+    border-radius: 50%;
+}
+.right-section img{
+    margin: 5px;
+}
+.left-up p{
+    color:#95a3b4;
+}
+.transaction-card{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    height: 120px;
+    box-shadow: 5px 5px 10px #b8b8b8;
+    display: flex;
+    margin-top: 10px;
+}
+.price{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+.transaction-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.done{
+    border: 1px solid #0B69FF;
+    color: #0B69FF;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.net-bill-done{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+body{
+    padding: 0 100px;
+}

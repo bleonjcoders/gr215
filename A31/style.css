@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: white;
+    width: 1000px;
+    display: grid;
+    grid-template-rows: repeat(2,150px);
+    grid-template-columns: 1fr 1fr 1fr;
+    /* column-gap: 30px;
+    row-gap: 10px; */
+    gap: 30px;
+}
+.one{
+    background-color: pink;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: black;
+}
+.four{
+    background-color: green;
+}
+.five{
+    background-color:blue ;
+}
+.six{
+    background-color: yellow;
+}

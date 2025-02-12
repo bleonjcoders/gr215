@@ -1,0 +1,26 @@
+#home, #services, #team{
+    color: #198754;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulli{
+    width: 50%;
+    font-size: 50px;
+    color: #198754;
+}
+footer{
+    background-color: #f8f8fa;
+    color: #198754;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

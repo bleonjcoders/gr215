@@ -1,0 +1,14 @@
+.box{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    margin-left: 120px;
+}
+.two {
+    margin-left:300px;
+}

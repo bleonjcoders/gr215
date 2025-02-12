@@ -1,0 +1,25 @@
+body{
+    background-color: #6f0152;
+}
+h1{font-size: 40px;
+   color: #FFEB3B;
+}
+
+h2{
+    font-size: 25px;
+    color: #FFC106;
+}
+p{
+    font-size: 18px;
+    color: #CDDC39;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+em{
+    color: #f730d6;
+    font-weight: 900;
+}
+h1, h2, p{
+    text-align: center;
+}
+

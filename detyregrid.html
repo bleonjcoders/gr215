@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 200px 200px 100px;
+            gap: 30px;
+            width: 1000px;
+        }
+        .item{
+            background-color: darkblue;
+            color: white;
+        }
+        .header, .footer{
+            grid-column: span 4;
+        }
+        .main{
+            grid-column: span 3;
+        }
+        .sidebar{
+            grid-row: span 2
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item header"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item sidebar"></div>
+        <div class="item main"></div>
+        <div class="item footer"></div>
+    </div>
+</body>
+</html>

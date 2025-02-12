@@ -1,0 +1,14 @@
+div{
+    background-color: green;
+    color:white;
+    margin: 20px;
+    width: 200px ;
+    height: 170px;
+    display: inline-block;
+}
+p{
+    display: inline;
+}
+.theFirst{
+    background-color: black;
+}
